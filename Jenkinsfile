@@ -36,7 +36,7 @@ pipeline {
                 bat 'echo %date% %time%'
 
                 echo 'Test process Successful Done....'
-                bat 'mvn test'
+                bat 'mvn test -PSubmitOrder'
             }
         }
 
