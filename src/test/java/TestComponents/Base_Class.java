@@ -60,10 +60,10 @@ public class Base_Class {
 			
 		} 
 		
-		else if (browsername.equals("firefox")) {
+		else if (browsername.contains("firefox")) {
 			System.out.println("execute in firefox");
 
-		} else if (browsername.equals("edge")) {
+		} else if (browsername.contains("edge")) {
 			System.out.println("execute in edge");
 			driver = new EdgeDriver();
 
