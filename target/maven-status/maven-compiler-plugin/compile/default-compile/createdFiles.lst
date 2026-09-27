@@ -1,0 +1,8 @@
+TestResources\ExtentManager.class
+PageObjects\confirmationpage.class
+PageObjects\LandingPage.class
+Utility_Classess\Utility_Class.class
+PageObjects\OrderPage.class
+PageObjects\products_Catalogue.class
+PageObjects\CartPage.class
+PageObjects\CheckOut_Page.class

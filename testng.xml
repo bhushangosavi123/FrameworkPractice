@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite   name="Suite">
+
+
+<listeners>
+<listener class-name = "TestComponents.listeners"/>
+
+</listeners>
+
+
+  <test  thread-count="5" name="Submit_Order_Test">
+    <classes>
+
+      <class name="FrameWork_Automation.FrameWork_Practice.Submit_Order"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
